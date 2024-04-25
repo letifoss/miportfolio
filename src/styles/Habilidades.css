@@ -1,0 +1,47 @@
+
+.iconoshabilidades {
+    margin-top: 80px;
+    display: flex;
+}
+
+.imagen-container {
+    position: relative; /* Asegura que los elementos secundarios sean posicionados relativamente */
+    display: inline-block; /* Permite que los elementos fluyan horizontalmente */
+}
+
+.imagen-habilidad {
+    width: 80px;
+    max-width: 100px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    border-radius: 25px;
+    filter: saturate(80%) hue-rotate(330deg);
+}
+
+.imagen-container:hover .imagen-habilidad {
+    transform: scale(1.2);
+    max-width: 160px;
+    box-shadow: 0 0 30px rgb(255, 188, 235);
+    cursor: pointer;
+}
+
+.name {
+    display: none; /* Oculta el nombre por defecto */
+    position: absolute;
+    bottom: -50px; /* Ajusta la posición del nombre */
+    left: 50%; /* Centra el nombre horizontalmente */
+    transform: translateX(-50%); /* Centra el nombre horizontalmente */
+    color: #000000;
+    font-style: italic;
+}
+
+.imagen-container:hover .name {
+    display: block; /* Muestra el nombre en hover */
+    
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
