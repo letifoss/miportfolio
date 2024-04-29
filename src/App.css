@@ -8,8 +8,7 @@
   font-style: normal;
   scroll-behavior: smooth;
   transition: background-color 0.3s ease, color 0.3s ease;
-  
-  }
+}
   
 
 
@@ -47,6 +46,14 @@ section{
   margin-top: 80px;
 }
 
+#proyectos .content{
+  margin-bottom: 200px;
+
+}
+
+#contacto .content{
+  margin-bottom: 160px;
+}
 .icon a{
   font-size: 20vh;
   color: black;
@@ -81,14 +88,17 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
-@media screen and (max-width: 748px){
+@media screen and (max-width: 768px){
     .icon{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+
+    
   }
 
   @media screen and (max-width: 425px){

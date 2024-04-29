@@ -7,7 +7,7 @@ function Proyectos(){
     <section id="proyectos">
         <div class="content d-flex flex-column align-items-center ">
             <h1>MIS PROYECTOS</h1>
-            <div className="d-flex mt-5">
+            <div className="d-flex flex-column flex-md-row flex-lg-row mw-100 mt-5">
                 <div>
                     <div className="proyecto overflow-hidden">
                         <img src={logocalculadora} alt="proyecto calculadora" width="260" height="270"/>
