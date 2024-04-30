@@ -16,7 +16,7 @@ function Habilidades(){
         <div class="content d-flex flex-column justify-content-center ">
         <div className="d-flex justify-content-center"><h1>HABILIDADES</h1></div>
         <div className="habilidades">
-        <div className="iconoshabilidades d-flex justify-content-around">
+        <div className="iconoshabilidades d-flex">
             <div className="imagen-container">
                 <img src={logohtml} alt="icono html" width="100px"  className="imagen-habilidad"/>
                 <span className="name">HTML</span>

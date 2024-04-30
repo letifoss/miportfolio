@@ -66,7 +66,7 @@ section{
   margin-bottom: 160px;
 }
 .icon a{
-  font-size: 20vh;
+  font-size: 140px;
   color: black;
 }
 
@@ -103,18 +103,41 @@ section{
 }
 
 @media screen and (max-width: 768px){
-    .icon{
+ .content{
+    margin-top:300px;
+  }
+  .iconoshabilidades {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    
+      flex-wrap: wrap;
+      justify-content: center;
   }
 
-  @media screen and (max-width: 425px){
-      .icon a{
-        width: 10px;
-      }
+  .imagen-container {
+      margin: 16px;
   }
 
+  .imagen-habilidad {
+      width: 100px; /* Ajustar el ancho de los iconos */
+  }
+
+  .name {
+      bottom: -30px; /* Ajustar la posición del nombre en pantallas más pequeñas */
+  }
+  .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 80px;
+  }
+}
+
+
+@media screen and (max-width: 425px){
+  .h1{
+    font-size: 20px;
+  }
+  .proyecto{
+    height: 100px;
+    width: 200px;
+}
+}

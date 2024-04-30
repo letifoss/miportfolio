@@ -1,12 +1,13 @@
-
 .iconoshabilidades {
     margin-top: 80px;
     display: flex;
+    justify-content: space-around;
+    
 }
 
 .imagen-container {
     position: relative; /* Asegura que los elementos secundarios sean posicionados relativamente */
-    display: inline-block; /* Permite que los elementos fluyan horizontalmente */
+
 }
 
 .imagen-habilidad {
@@ -25,10 +26,10 @@
 }
 
 .name {
-    display: none; /* Oculta el nombre por defecto */
+    display: none; /* Ocultar el nombre por defecto */
     position: absolute;
-    bottom: -50px; /* Ajusta la posición del nombre */
-    left: 50%; /* Centra el nombre horizontalmente */
+    bottom: -50px; /* Ajustar la posición del nombre */
+    left: 50%; /* Centrar el nombre horizontalmente */
     transform: translateX(-50%); /* Centra el nombre horizontalmente */
     color: #000000;
     font-style: italic;
