@@ -10,12 +10,23 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
   
+@keyframes presentation{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
+#presentacion{
+  animation: presentation 1.3s ease-in forwards;
+}
 
 @keyframes show {
   from { /* el momento del 0% */
     opacity: 0;
-    scale: 25% /* tamaño al aparecer*/
+    scale: 20% /* tamaño al aparecer*/
   }
 
   to {
