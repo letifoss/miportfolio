@@ -6,20 +6,20 @@ import Proyectos from './componentes/Proyectos';
 import Habilidades from './componentes/Habilidades';
 import Contacto from './componentes/Contacto';
 import Footer from './componentes/Footer';
-import DogImage from './componentes/ApiDog';
+
 
 
 function App() {
-
-   return (
+  return (
     <div className="App">
+      <div className='background'>
       <Menu />
       <Presentacion />
-      <DogImage />
       <Proyectos />
       <Habilidades />
       <Contacto />
       <Footer />
+    </div>
     </div>
   );
 }

@@ -1,7 +1,6 @@
 *{
     font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
     margin: 0;
     padding: 0;
@@ -51,8 +50,7 @@ html {
 
 .navbar a:hover {
   color: rgb(0, 0, 0);
-  text-decoration: none; /* Remove the underline here since it's handled by the ::before pseudo-element */
-}
+  text-decoration: none; 
 
 .navbar a::before {
   content: "";
@@ -71,7 +69,7 @@ html {
 
 .navbar a:hover {
   color: rgb(0, 0, 0);
-  text-decoration: none; /* Remove the underline here since it's handled by the ::before pseudo-element */
+  text-decoration: none; 
 }
 
 
@@ -105,6 +103,7 @@ html {
 
 }
 
+
 section{
   view-timeline-name: --content; /* nombre enlazado al scroll */
   view-timeline-axis: block; /* que eje tiene que mirar el scroll, block: en vertical o inline:horizontal*/
@@ -114,16 +113,17 @@ section{
 
   animation-range: entry 10% cover 30% ; /* cuando empieza la animacion, es cuando el elemento se ve al 25% */
 /* cover (cubra) termine la animacion cuando el elemento se esté mostrando en un 50% */
-  /*/ animation-fill-mode: both;  va hacia adelante y hacia atras la animacion */
+
 }
 
-.footer{
+.footer {
   background-color: rgb(247, 170, 228);
   height: 30vh;
   flex-direction: column;
   align-items: center;
   max-width: 100%;
 }
+
 
 @media screen and (max-width: 748px){
     .icon{
@@ -137,9 +137,11 @@ section{
       .icon a{
         width: 10px;
       }
+
+      .footer{
+        margin-top:200px
+      }
   }
-
-
-
+}
 
   

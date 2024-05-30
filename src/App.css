@@ -1,14 +1,33 @@
 .App{
   margin: 0;
   padding: 0;
-  background-color: hwb(0 100% 0%);
   font-family: "Fredoka", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
   scroll-behavior: smooth;
   transition: background-color 0.3s ease, color 0.3s ease;
+  color: rgb(0, 0, 0);
 }
+
+.App a{
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.App a:hover{
+  font-weight: 500;
+}
+
+.background{
+    background-image: linear-gradient(rgba(238, 238, 238, 0.9), rgba(248, 248, 248, 0.8)), url("./imagenes/fondo1.svg");
+    background-size: cover;
+    --opacidad-negro: 0.8;
+}
+
+
   
 @keyframes presentation{
   0%{
@@ -43,9 +62,16 @@ section{
   animation-timeline: --content;
   animation-name: show;
 
-  animation-range: entry 10% cover 30% ; /* cuando empieza la animacion, es cuando el elemento se ve al 25% */
-/* cover (cubra) termine la animacion cuando el elemento se esté mostrando en un 50% */
-  /*/ animation-fill-mode: both;  va hacia adelante y hacia atras la animacion */
+  animation-range: entry 10% cover 30% ; 
+}
+.masinfo{
+  margin-bottom: 150px;
+  view-timeline-name: --info; /* nombre enlazado al scroll */
+  view-timeline-axis: block; /* que eje tiene que mirar el scroll, block: en vertical o inline:horizontal*/
+  animation-timeline: --info;
+  animation-name: show;
+  animation-range: entry 0% cover 50% ; 
+
 }
 
 
@@ -57,13 +83,29 @@ section{
   margin-top: 80px;
 }
 
+@keyframes titulo {
+  0% {
+    text-shadow: 10 0 10px  rgb(252, 162, 252);
+  }
+  100% {
+    text-shadow: 0 0 10px rgb(226, 119, 230);
+  }
+}
+
+.texto-animado {
+  animation: 2s titulo linear 1s infinite both normal ;
+  animation-timing-function:ease-in-out;
+}
+
+
+
 #proyectos .content{
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 
 }
 
 #contacto .content{
-  margin-bottom: 160px;
+  margin-top: 100px;
 }
 .icon a{
   font-size: 140px;
@@ -82,6 +124,7 @@ section{
   box-shadow: 0 0 15px 0 rgb(0, 0, 0);
   margin: 10px;
   transition: transform 0.7s ease;
+  margin: 20px;
 }
 
 .proyecto:hover{
@@ -93,6 +136,7 @@ section{
 .proyecto:not(:hover) {
   transform: scale(1);
 }
+
 .footer{
   background-color: rgb(247, 170, 228);
   height: 200px;
@@ -100,12 +144,19 @@ section{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-left: 0;
 }
 
 @media screen and (max-width: 768px){
- .content{
-    margin-top:300px;
+  #contacto .content{
+    margin-top: 300px;
+    margin-bottom: 100px;
   }
+  
+  #habilidades .content{
+    margin-top: 500px;
+  }
+
   .iconoshabilidades {
       display: flex;
       flex-wrap: wrap;
@@ -118,6 +169,7 @@ section{
 
   .imagen-habilidad {
       width: 100px; /* Ajustar el ancho de los iconos */
+      margin-top: 30px;
   }
 
   .name {
@@ -136,8 +188,18 @@ section{
   .h1{
     font-size: 20px;
   }
-  .proyecto{
-    height: 100px;
-    width: 200px;
+
+
+.footer{
+  margin-top:200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.masinfo{
+  margin-top: 300px;
 }
 }

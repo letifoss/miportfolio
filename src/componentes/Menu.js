@@ -3,6 +3,7 @@ import '../styles/Menu.css';
 import { Link } from "react-scroll";
 import { useState } from "react";
 import { useEffect } from "react";
+import Menudesplegable from "./Menudesplegable";
 
 
 function Menu() {
@@ -33,7 +34,7 @@ function Menu() {
         <div className="menu">
         <nav className={`navbar navbar-expand-lg sticky-top navbar-light ${scroll ? 'scrolled' : ''}`}>
             <li><Link to="presentacion"><h2>MI PORTFOLIO</h2></Link></li>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"  onClick={Menudesplegable}>
             <span className="navbar-toggler-icon"></span>
             </button>
         <div className="collapse navbar-collapse" id="navbarText">

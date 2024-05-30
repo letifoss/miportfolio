@@ -39,7 +39,7 @@
   
   .navbar li:hover {
     color: rgb(0, 0, 0);
-    text-decoration: none; /* Remove the underline here since it's handled by the ::before pseudo-element */
+    text-decoration: none; 
   }
   
   .navbar li::before {
@@ -59,7 +59,7 @@
   
   .navbar li:hover {
     color: rgb(0, 0, 0);
-    text-decoration: none; /* Remove the underline here since it's handled by the ::before pseudo-element */
+    text-decoration: none; 
   }
   
   .navbar li{
@@ -68,4 +68,14 @@
 
   .scrolled{
     background-color: rgba(255, 228, 253, 0.8);
+  }
+
+  .menudesp{
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+  }
+
+  .menudesp ul{
+    color: black;
   }

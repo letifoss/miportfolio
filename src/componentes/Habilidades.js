@@ -42,7 +42,7 @@ function Habilidades(){
                 <span className="name">Python</span>
             </div>
         </div>
-        <div className="iconoshabilidades d-flex justify-content-center">
+        <div className="iconoshabilidades d-flex justify-content-evenly">
         <div className="imagen-container m-5">
             <img src={logodjango} alt="icono django" width="100px" className="imagen-habilidad"/>
                 <span className="name">Django</span>

@@ -1,20 +1,24 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-function Footer(){
-    return(
-        <footer class="row footer">
-            <div class="col-6 col-md-3 d-flex flex-column align-items-center">
-                <a href="" style={{color: 'black'}}>Volver al inicio</a>
-                <a href="" style={{color: 'black'}}>Proyectos</a>
-                <a href="" style={{color: 'black'}}>Contacto</a>
-            </div>
-            <div class="col-6 col-md-4 d-flex flex-column align-items-center">
-                <h6>Contáctame!</h6>
-                <p>+(598) 94451482</p>
-                <p>Montevideo, Uruguay </p>
-            </div>
-        </footer>
+function Footer() {
+    return (
+      <footer className="row footer justify-content-around">
+        <div className="d-flex flex-column align-items-center">
+        <Link to="presentacion" smooth={true}>Volver al inicio</Link>
+        <Link to="proyectos" smooth={true}>Proyectos</Link>
+        <Link to="contacto" smooth={true}>Contacto</Link>
+
+        </div>
+        <div className="d-flex flex-column align-items-center ">
+          <h6>Contáctame!</h6>
+          <p>+(598) 94451482</p>
+          <p><i class="bi bi-envelope mr-2"></i>letifossemale@gmail.com</p>
+          <p>Montevideo, Uruguay</p>
+        </div>
+      </footer>
     )
-}
+  }
+  
 
 export default Footer;
