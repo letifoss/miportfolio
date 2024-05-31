@@ -51,7 +51,7 @@ html {
 .navbar a:hover {
   color: rgb(0, 0, 0);
   text-decoration: none; 
-
+}
 .navbar a::before {
   content: "";
   position: absolute;
@@ -142,6 +142,3 @@ section{
         margin-top:200px
       }
   }
-}
-
-  

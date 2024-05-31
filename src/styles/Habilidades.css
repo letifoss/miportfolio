@@ -6,7 +6,7 @@
 }
 
 .imagen-container {
-    position: relative; /* Asegura que los elementos secundarios sean posicionados relativamente */
+    position: relative;
 
 }
 
@@ -28,15 +28,15 @@
 .name {
     display: none; 
     position: absolute;
-    bottom: -50px; /* Ajustar la posición del nombre */
-    left: 50%; /* Centrar el nombre horizontalmente */
-    transform: translateX(-50%); /* Centra el nombre horizontalmente */
+    bottom: -50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
     color: #000000;
     font-style: italic;
 }
 
 .imagen-container:hover .name {
-    display: block; /* Muestra el nombre en hover */
+    display: block;
     
 }
 

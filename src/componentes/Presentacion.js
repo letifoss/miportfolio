@@ -8,9 +8,9 @@ function Presentacion(){
         <>
     <div id="presentacion">
         <div className="content d-flex flex-column align-items-center justify-content-center flex-md-row">
-            <img src={fotolinkedin} alt="foto leticia fossemale" width="190" className="ml-3 mt-5"/>
+            <img src={fotolinkedin} alt="foto leticia fossemale" width="190" className="ml-3 imagenprincipal"/>
             <div className="d-flex flex-column justify-content-center p-4">
-                <h1 className="text-center">LETICIA FOSSEMALE</h1>
+                <h1 className="text-center major-mono-display-regular">LETICIA FOSSEMALE</h1>
                 <h4 className="text-left mw-100">Bienvenidos a mi portfolio. Aquí conocerás un poco más sobre mí, mis estudios, conocimientos y te mostraré algunos de mis proyectos. </h4>
                 <h4 className="text-left mw-100">Soy <b className="texto-animado"><i>desarrolladora full stack</i></b>, con enfoque en el desarrollo <b>front-end</b>, utilizando React principalmente.</h4>
                 <h4>Tengo 28 años y soy de Uruguay. </h4>
