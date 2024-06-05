@@ -10,7 +10,7 @@ function Contacto(){
                     <a href="https://wa.me/59894451482" target="_blank"><i class="bi bi-whatsapp m-5"></i></a>
                 </div>
                 <div class="mt-4">
-                    <p class="fs-1 text-center">Comunicate vía email o whatsapp por presupuestos, consultas y más información</p>
+                    <p class="fs-4 text-center">Comunicate vía email o whatsapp por presupuestos, consultas y más información</p>
                 </div>
             </div>
     </section>
