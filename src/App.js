@@ -7,11 +7,14 @@ import Habilidades from './componentes/Habilidades';
 import Contacto from './componentes/Contacto';
 import Footer from './componentes/Footer';
 
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
+AOS.init();
 
 function App() {
   return (
-    <div className="App">
+    <div className="App work-sans-font">
       <div className='background'>
       <Menu />
       <Presentacion />

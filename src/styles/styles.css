@@ -1,9 +1,9 @@
 *{
-    font-family: "Fredoka", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "Work Sans", sans-serif;
     font-style: normal;
     margin: 0;
     padding: 0;
+
    }
   
 
@@ -13,8 +13,7 @@ html {
 
 .body{
   background-color: hwb(0 100% 0%);
-  font-size: 20%;
- 
+
 }
 
 .navbar{

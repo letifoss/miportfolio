@@ -9,18 +9,18 @@ function Presentacion(){
     <div id="presentacion">
         <div className="content d-flex flex-column align-items-center justify-content-center flex-md-row">
             <div className="d-flex justify-content-center">
-                <img src={fotolinkedin} alt="foto leticia fossemale" width="140" height={180} className=" imagenprincipal rounded-circle ml-3"/>
+                <img src={fotolinkedin} alt="foto leticia fossemale" width="130" height={180} className=" imagenprincipal rounded-circle ml-3"/>
             </div>
             <div className="d-flex flex-column justify-content-center p-4">
-                <h1 className="text-center major-mono-display-regular">LETICIA FOSSEMALE</h1>
-                <h4 className="text-left mw-100">Bienvenidos a mi portfolio. Aquí conocerás un poco más sobre mí, mis estudios, conocimientos y te mostraré algunos de mis proyectos. </h4>
-                <h4 className="text-left mw-100">Soy <b className="texto-animado"><i>desarrolladora full stack</i></b>, con enfoque en el desarrollo <b>front-end</b>, utilizando React principalmente.</h4>
-                <h4>Tengo 28 años y soy de Uruguay. </h4>
-                <h4>Soy una persona muy comprometida, responsable y siempre dispuesta a seguir aprendiendo. </h4>
+                <h1 className="text-center" >LETICIA FOSSEMALE</h1>
+                <h5 className="text-left mw-100">Bienvenidos a mi portfolio. Aquí conocerás un poco más sobre mí, mis estudios, conocimientos y te mostraré algunos de mis proyectos. </h5>
+                <h5 className="text-left mw-100">Soy <b className="texto-animado"><i>desarrolladora full stack</i></b>, con enfoque en el desarrollo <b>front-end</b>, utilizando React principalmente.</h5>
+                <h5>Tengo 28 años y soy de Uruguay. </h5>
+                <h5>Soy una persona muy comprometida, responsable y siempre dispuesta a seguir aprendiendo. </h5>
             </div>
         </div>
     </div>
-    <div className="d-flex flex-column justify-content-center align-items-center masinfo">
+    <div className="d-flex flex-column justify-content-center align-items-center masinfo ">
         <h3>Más sobre mí ...</h3>
         <h4><a href={curriculum} target="_blank">Curriculum vitae</a> </h4>
         <h4><a href={certificados} target="_blank">Ver certificados/diplomas</a></h4>
