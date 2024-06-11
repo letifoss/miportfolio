@@ -20,7 +20,7 @@ function Presentacion(){
             </div>
         </div>
     </div>
-    <div className="d-flex flex-column justify-content-center align-items-center masinfo ">
+    <div className="d-flex flex-column justify-content-center align-items-center masinfo" data-aos="fade-up">
         <h3>Más sobre mí ...</h3>
         <h4><a href={curriculum} target="_blank">Curriculum vitae</a> </h4>
         <h4><a href={certificados} target="_blank">Ver certificados/diplomas</a></h4>
