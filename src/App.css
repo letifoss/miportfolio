@@ -26,6 +26,19 @@
   font-style: normal;
 }
 
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .background{
     background-image: linear-gradient(rgba(238, 238, 238, 0.9), rgba(248, 248, 248, 0.8)), url("./imagenes/fondo1.svg");
     background-size: cover;
@@ -91,15 +104,18 @@
 
 @keyframes titulo {
   0% {
-    text-shadow: 10 0 10px  rgb(252, 162, 252);
+    text-shadow: 10 0 10px  rgb(247, 119, 247);
+  }
+  50% {
+    text-shadow: 10 0 10px  rgb(207, 45, 207);
   }
   100% {
-    text-shadow: 0 0 10px rgb(226, 119, 230);
+    text-shadow: 0 0 10px rgb(252, 102, 227);
   }
 }
 
 .texto-animado {
-  animation: 2s titulo linear 1s infinite both normal ;
+  animation: 2s titulo linear 0s infinite both alternate ;
   animation-timing-function:ease-in-out;
 }
 
@@ -107,6 +123,9 @@
   margin-top: 100px;
 }
 
+#presentacion .content{
+  width: 50%;
+}
 #proyectos .content{
   margin-bottom: 100px;
 
@@ -196,7 +215,9 @@
   .h1{
     font-size: 20px;
   }
-
+  #presentacion .content{
+    width: 90%;
+  }
 
 .footer{
   margin-top:200px;

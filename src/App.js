@@ -14,7 +14,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className="App work-sans-font">
+    <div className="App mulish-font">
       <div className='background'>
       <Menu />
       <Presentacion />
