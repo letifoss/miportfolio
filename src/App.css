@@ -121,8 +121,12 @@
 
 .imagenprincipal{
   margin-top: 100px;
+  box-shadow: 0 0 10px black;
 }
-
+.pink {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
 #presentacion .content{
   width: 50%;
 }
@@ -143,25 +147,52 @@
   color: rgb(211, 66, 146);
 }
 
-
-.proyecto{
+.proyecto {
   height: 160px;
   width: 260px;
-  background-color:rgb(211, 66, 146) ;
+  background-color: rgb(211, 66, 146);
   box-shadow: 0 0 15px 0 rgb(0, 0, 0);
-  margin: 10px;
-  transition: transform 0.7s ease;
   margin: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.7s ease;
 }
 
-.proyecto:hover{
+.proyecto:hover {
   transform: scale(1.1);
-  transition-duration: 0.7s ;
+  transition-duration: 0.7s;
   box-shadow: 0 0 20px 0 rgb(44, 44, 44);
   cursor: pointer;
 }
+
 .proyecto:not(:hover) {
   transform: scale(1);
+}
+
+.imagenproyecto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyecto:hover .imagenproyecto {
+  filter: brightness(20%);
+}
+
+.descripcionproyecto {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.proyecto:hover .descripcionproyecto {
+  display: block;
 }
 
 .footer{
@@ -195,12 +226,12 @@
   }
 
   .imagen-habilidad {
-      width: 100px; /* Ajustar el ancho de los iconos */
+      width: 100px; 
       margin-top: 30px;
   }
 
   .name {
-      bottom: -30px; /* Ajustar la posición del nombre en pantallas más pequeñas */
+      bottom: -30px; 
   }
   .icon{
     display: flex;
