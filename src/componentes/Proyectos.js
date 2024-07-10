@@ -13,21 +13,21 @@ function Proyectos(){
                 <div>
                     <div className="proyecto overflow-hidden">
                     <a href="https://proyectomicalculadora.netlify.app/" target="blank"><img src={logocalculadora} alt="proyecto calculadora" width="260" height="270" className="imagenproyecto"/></a>
-                    <p className="descripcionproyecto">REACT</p>
+                    <a href="https://proyectomicalculadora.netlify.app/" target="_blank" className="descripcionproyecto text-white">HTML, CSS, REACT</a>
                     </div>
                     <h6 className="text-center mt-3">Proyecto calculadora</h6>
                 </div>
                 <div>
                     <div className="proyecto overflow-hidden">
                         <a href="https://proyectonetf.vercel.app/" target="blank"> <img src={logonetflix} alt="proyecto pagina netflix" width="260" height="160"  className="imagenproyecto"/></a>
-                        <p className="descripcionproyecto">HTML, CSS, BOOTSTRAP</p>
+                        <a href="https://proyectonetf.vercel.app/" target="_blank" className="descripcionproyecto text-white">HTML, CSS, BOOTSTRAP</a>
                     </div>
                     <h6 className="text-center mt-3">Proyecto página Netflix</h6>
                 </div>
                 <div>
                     <div className="proyecto overflow-hidden">
-                        <a href="https://gacetasite.netlify.app/" target="blank"> <img src={logogaceta} alt="proyecto pagina gacetaplay" width="260" height="160" className="imagenproyecto" /></a>
-                        <p className="descripcionproyecto">HTML, CSS, BOOTSTRAP, REACT</p>
+                        <a href="https://gacetap.vercel.app/" target="_blank"> <img src={logogaceta} alt="proyecto pagina gacetaplay" width="260" height="160" className="imagenproyecto" /></a>
+                        <a href="https://gacetap.vercel.app/" target="_blank" className="descripcionproyecto text-white">HTML, CSS, BOOTSTRAP, REACT</a>
                     </div>
                     <h6 className="text-center mt-3">Sitio web Produccion musical</h6>
                     <p className="text-center mt-3"> (en construcción)</p>
@@ -35,7 +35,7 @@ function Proyectos(){
                 <div>
                     <div className="proyecto overflow-hidden">
                         <a href="https://clothesstore-mu.vercel.app/" target="blank"> <img src={logoropa} alt="proyecto venta de ropa" width="260" height="160"  className="imagenproyecto"/></a>
-                        <p className="descripcionproyecto">HTML, CSS, BOOTSTRAP, REACT</p>
+                        <a href="https://clothesstore-mu.vercel.app/" target="_blank" className="descripcionproyecto text-white">HTML, CSS, BOOTSTRAP, REACT, JAVASCRIPT</a>
                     </div>
                     <h6 className="text-center mt-3">Página ecommerce, venta de ropa</h6>
                     <p className="text-center mt-3"> (en construcción)</p>
